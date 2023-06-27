@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{ 
+    height: 100vh;
+    background:-webkit-linear-gradient(#000 6%, #fff);
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: rgb(215, 197, 197);
+    margin-top: 100px;
+   
+}
+.container{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-top: 30px;
+   
+   
+}
+   
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem 2rem 5rem;
+    background-color: rgb(21, 20, 20);
+    margin: 0 1rem;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s all linear;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    border-block-start-style: groove;
+    
+}
+.item:hover{
+    transform: scale(1.06);
+    box-shadow: 0.5rem 1rem 2rem 0 #ffff;
+}
+.item li{
+    list-style: none;
+    padding: 10px;
+}
+.pricing{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: skyblue;
+    font-weight: bold;
+   
+}
+.pricing-kit{
+    font-size: 1.3rem;
+    padding: .7rem 1.5rem;
+    border-radius: 0 0 2rem 2rem;
+    background-color: skyblue;
+}
+.item:hover .pricing-kit{
+    
+}
+.offers{
+    color: #c0bbbb;
+    margin: 0.5rem 0;
+}
+.order{
+    border: none;
+    border: 2px solid skyblue;
+    background-color: transparent;
+    color: skyblue;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+
+}
+.order:hover{
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
