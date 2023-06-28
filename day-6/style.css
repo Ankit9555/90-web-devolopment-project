@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: rgb(177, 194, 209);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   background-color: rgb(166, 161, 161);
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 1rem 3rem;
+   border-radius: .5rem;
+   
+}
+.container form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.container h2{
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.container form input{
+    font-weight: bold;
+    width: fit-content;
+    border: none;
+    font-size: 1rem;
+    background: transparent;
+    border-bottom: 2px solid #d0cece;
+    padding: 5px;  
+    color: #000000;
+}
+
+.forgotpassword a{
+    
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.forgotpassword{
+    text-align: right;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 140px;
+
+}
+
+
+input:focus{
+    outline: none;
+}
+.container form .username{
+    margin-right: .7rem;
+    color: rgb(64, 63, 63);
+}
+.container form i{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.userArea{
+    margin-bottom: .7rem;
+}
+/* .container form .forgotPassword {
+    position: absolute;
+    right: 0rem;
+    cursor: pointer;
+    bottom: 17rem;
+    color: rgb(195, 200, 204);
+    font-size: .8rem;
+   text-decoration: none; */
+    
+
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .8rem;
+}
+
+.formBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formBottom ul {
+    margin-bottom: 3rem;
+}
+
+.formBottom p {
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+
+.flexUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexUl a {
+    text-decoration: none;
+}
+
+.flexUl li {
+    list-style: none;
+}
+
+.flexUl li i {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.fa-google {
+    background-color: orangered;
+    border-top-style: groove;
+}
+
+.fa-twitter {
+    background-color: rgb(43, 71, 228);
+    border-top-style: groove;
+}
+
+.fa-facebook-f {
+    background-color: darkblue;
+    border-top-style: groove;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.btn {
+
+    border-radius:0.8rem;
+    cursor: pointer;
+    padding: 0.7rem 0.8rem;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    border: none;
+    border-top-style: groove;
+    
+}
+.btn:hover{
+    border: none;
+    border-botton-style: groove;
+    background: linear-gradient(to right, #9f84c8, #e06ca6);
+}
+
+.signup {
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: -20px;
+}
+.sign a{
+    
+    padding: 1rem;
+    text-decoration: none;
+}   
+
+.sign{
+    text-align: center;
+    margin-top: 15px;
+}
+.sign :hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
